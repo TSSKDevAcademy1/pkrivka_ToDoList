@@ -1,0 +1,54 @@
+<!DOCTYPE HTML SYSTEM>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="col-6 center"><h1>To Do List</h1></div>
+
+	<div class="col-6 center">
+		<div class="col-2 right">Task:</div>
+		<div class="col-8 left">
+		<span class="center">
+				<input type="text" id="new-entry" name="task"/>
+		</span>
+		</div>
+		<div class="col-2 left">
+			<span id="Add-btn-add">
+				<button type="button" class="btn btn-primary">Add
+				</button>
+			</span>
+		</div>	
+	</div>
+	
+	<div class="col-6 center">
+		<div class="col-12 left">
+			<span id="mark"
+	      	onmouseover="this.style.cursor='pointer'"
+	      	onmouseout="this.style.cursor='default'">
+	      	<ul id="todo-list">
+			</ul>
+			</span>
+		</div>
+	</div>
+
+	<div class="col-6 center">
+		<div class="col-3 right">		
+				<span id="Done-btn-delete">
+					<button type="button" class="btn btn-primary">Delete Done
+					</button>
+				</span>
+		</div>
+		<div class="col-9"></div>
+	</div>
+
+	<div class="col-6 center">
+		<h3>Created by Patrik Krivka</h3>
+	</div>
+
+</body>
+<script src="js/todo.js"></script>
+</html>
